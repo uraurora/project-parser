@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="project-parser-resolver" />
         <module name="project-parser-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="project-parser" target="1.5" />
       <module name="project-parser-core" target="1.5" />
+      <module name="project-parser-resolver" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
