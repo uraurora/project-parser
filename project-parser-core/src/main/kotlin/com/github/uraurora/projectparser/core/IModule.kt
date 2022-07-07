@@ -8,7 +8,7 @@ import java.nio.file.Path
  * @date : 2022-07-05 21:30
  * @description : module interface, describe a module of java project
  */
-interface IModule : ICompilable, IDeployable, ICommandExecutable {
+interface IModule : ICompilable, IDeployable, ICommandExecutable, IVersion {
 
     fun name(): String
 
@@ -21,6 +21,5 @@ interface IModule : ICompilable, IDeployable, ICommandExecutable {
     fun resourcePaths(): List<Path>
 
     fun testResourcePaths(): List<Path>
-
 
 }
