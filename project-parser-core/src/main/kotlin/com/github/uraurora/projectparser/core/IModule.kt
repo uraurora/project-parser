@@ -12,7 +12,7 @@ interface IModule : ICompilable, IDeployable, ICommandExecutable, IVersion {
 
     fun name(): String
 
-    fun path(): List<Path>
+    fun path(): Path
 
     fun sourcePaths(): List<Path>
 
