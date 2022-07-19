@@ -1,5 +1,6 @@
 package com.github.uraurora.projectparser.core.aggregate
 
+import com.github.uraurora.projectparser.core.utils.logger
 import java.nio.file.Path
 
 /**
@@ -9,5 +10,7 @@ import java.nio.file.Path
  * @description : abstract project class
  */
 abstract class AbstractProject(val projectPath: Path) {
-
+    companion object {
+        val logger = logger()
+    }
 }

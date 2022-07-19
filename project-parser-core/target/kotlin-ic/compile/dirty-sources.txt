@@ -1,0 +1,15 @@
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/ICompilable.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/aggregate/AbstractProject.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/utils/Files.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/utils/Datetimes.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/IVersion.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/IModule.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/IDeployable.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/utils/Dependencies.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/IProject.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/utils/Commons.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/utils/Projects.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/aggregate/AbstractModule.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/utils/Artifacts.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/aggregate/MavenModule.kt
+/Users/gaoxiaodong/myproject/project-parser/project-parser-core/src/main/kotlin/com/github/uraurora/projectparser/core/ICommandExecutable.kt

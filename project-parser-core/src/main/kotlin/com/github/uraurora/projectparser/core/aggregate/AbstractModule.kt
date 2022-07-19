@@ -1,6 +1,7 @@
 package com.github.uraurora.projectparser.core.aggregate
 
 import com.github.uraurora.projectparser.core.IVersion
+import com.github.uraurora.projectparser.core.utils.logger
 import org.eclipse.aether.artifact.Artifact
 import org.eclipse.aether.version.Version
 import java.io.File
@@ -14,6 +15,10 @@ import java.util.regex.Pattern
  * @description : abstract module
  */
 abstract class AbstractModule(val path: Path) {
+    
+    companion object {
+        val logger = logger()
+    }
 
     lateinit var artifact: Artifact
 

@@ -1,6 +1,6 @@
-package com.github.uraurora.projectparser.resolver.utils
+package com.github.uraurora.projectparser.core.utils
 
-import com.github.uraurora.projectparser.resolver.utils.DatetimeConstants.Companion.OFFSET
+import com.github.uraurora.projectparser.core.utils.DatetimeConstants.Companion.OFFSET
 import java.time.*
 import java.time.temporal.*
 import java.util.*

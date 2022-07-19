@@ -1,4 +1,4 @@
-package com.github.uraurora.projectparser.resolver.utils
+package com.github.uraurora.projectparser.core.utils
 
 import org.eclipse.aether.artifact.Artifact
 import org.eclipse.aether.graph.Dependency
