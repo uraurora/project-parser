@@ -33,12 +33,16 @@ fun <T : Any?> T.logger(name: String): KLogger {
     return KotlinLogging.logger(name)
 }
 
-fun <T : Collection<Any>> T.forEachPrintln() {
+fun <T : Iterable<Any>> T.forEachPrintln() {
     this.forEach { it.println() }
 }
 
-fun <T : Collection<Any>> T.forEachPrintln(mapper: (Any) -> String) {
+inline fun <T : Iterable<Any>> T.forEachPrintln(mapper: (Any) -> String) {
     this.forEach { mapper(it).println() }
+}
+
+fun <T> Array<out T>.forEachPrintln(): Unit {
+    forEach { println(it) }
 }
 
 //<editor-fold desc="json">

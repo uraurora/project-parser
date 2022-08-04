@@ -42,6 +42,9 @@ fun Int.qmi(b: Int, p: Int): Long {
     return res
 }
 
+/**
+ * 阶乘的质因数分解，返回质因子->个数的pair列表
+ */
 @ExperimentalStdlibApi
 fun Int.factorialDivide(): List<Pair<Int, Int>> {
     var cnt = 0
